@@ -1,0 +1,58 @@
+{
+  "name": "babel_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "browserslist": [
+    "last 5 version",
+    "ie 11",
+    "iOS >= 7.1",
+    "Android >= 4.4"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "autoprefixer": "^9.6.1",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.1.0",
+    "cx_common_lib": "file:../../../github/cx-common-lib",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "glob": "^7.1.4",
+    "handlebars": "^4.1.2",
+    "handlebars-loader": "^1.7.1",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "qisz-cxm-core": "file:../qisz_cxm_core",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.4.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue": "^2.6.11",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-merge": "^4.2.2",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "dependencies": {
+    "core-js": "^3.4.2"
+  }
+}

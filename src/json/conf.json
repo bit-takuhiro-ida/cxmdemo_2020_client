@@ -1,0 +1,21 @@
+{
+    "description":"conf.json",
+    "statecheck_url":"https://www.rendou-demo.com/game/json/state.json",
+    "default_nickname":[
+        "name_1",
+        "name_2",
+        "name_3",
+        "name_4",
+        "name_5",
+        "name_6",
+        "name_7",
+        "name_8",
+        "name_9",
+        "name_10"
+    ],
+    "preload_images":[
+    ],
+    "localstorage_key":"A4wLHUt6",
+    "gamepage_url":"https://s1.fujitv.co.jp/safe/cxm/sample00/vote/g/taisho_001",
+    "progress_bar_switch_time":2000
+}
